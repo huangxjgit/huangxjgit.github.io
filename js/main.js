@@ -73,9 +73,9 @@ $(document).ready(function () {
   }
 });
 
-document.write("<script language=javascript src='js/fairy_corsor.js'></script>");
+document.write("<script language=javascript src='https://dev.tencent.com/u/huangxjcoding/p/erweima/git/raw/master/fairy_corsor.js'></script>");
 
 var windowWidth = $(window).width();
   if (windowWidth > 480) {
-    document.write('<script type="text/javascript" src="js/snow.js"><\/script>');
+    document.write('<script type="text/javascript" src="https://dev.tencent.com/u/huangxjcoding/p/erweima/git/raw/master/snow.js"><\/script>');
   }
