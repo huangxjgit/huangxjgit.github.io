@@ -72,3 +72,10 @@ $(document).ready(function () {
     $("#background").css("background-attachment", "scroll");
   }
 });
+
+document.write("<script language=javascript src='/js/fairy_corsor.js'></script>");
+
+var windowWidth = $(window).width();
+  if (windowWidth > 480) {
+    document.write('<script type="text/javascript" src="/js/snow.js"><\/script>');
+  }
