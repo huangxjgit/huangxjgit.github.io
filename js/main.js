@@ -80,4 +80,4 @@ var windowWidth = $(window).width();
     document.write('<script type="text/javascript" src="https://dev.tencent.com/u/huangxjcoding/p/erweima/git/raw/master/snow.js"><\/script>');
   }
 
-  
+document.write("<script> var _hmt = _hmt || []; (function() { var hm = document.createElement('script'); hm.src = 'https://hm.baidu.com/hm.js?43443c53d43292f13a5a68fc31775ed8'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm, s); })(); </script>");
