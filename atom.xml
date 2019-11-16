@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="https://www.w3.org/2005/Atom">
+  <title>小可熙军</title>
+  
+  <subtitle>觉得自己做得到和做不到，其实只在一念之间!</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://hxjget.com/"/>
+  <updated>2019-11-10T06:52:09.266Z</updated>
+  <id>http://hxjget.com/</id>
+  
+  <author>
+    <name>熙军</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>测试</title>
+    <link href="http://hxjget.com/2019/11/07/test/"/>
+    <id>http://hxjget.com/2019/11/07/test/</id>
+    <published>2019-11-07T13:57:41.000Z</published>
+    <updated>2019-11-10T06:52:09.266Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+      <category term="测试" scheme="http://hxjget.com/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>渗透资源下载•置顶</title>
+    <link href="http://hxjget.com/2019/11/07/notice/"/>
+    <id>http://hxjget.com/2019/11/07/notice/</id>
+    <published>2019-11-07T13:55:22.000Z</published>
+    <updated>2019-11-10T07:57:53.468Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="渗透资源下载！"><a href="#渗透资源下载！" class="headerlink" title="渗透资源下载！"></a>渗透资源下载！</h3><p><a href="https://pan.baidu.com/s/1xOUPAC64NsZxBR-GficpbA" target="_blank" rel="noopener">VMware下载链接</a><br><img src="/2019/11/07/notice/vmware.jpg" srcset="/img/loading.gif" alt></p><p><a href="https://pan.baidu.com/s/1VbsaBHPVoAZdyYSJlSx5KQ" target="_blank" rel="noopener">kali_linux下载链接</a><br><img src="/2019/11/07/notice/kali.jpg" srcset="/img/loading.gif" alt></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;渗透资源下载！&quot;&gt;&lt;a href=&quot;#渗透资源下载！&quot; class=&quot;headerlink&quot; title=&quot;渗透资源下载！&quot;&gt;&lt;/a&gt;渗透资源下载！&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://pan.baidu.com/s/1xOUPAC64NsZxBR-G
+      
+    
+    </summary>
+    
+    
+      <category term="下载" scheme="http://hxjget.com/categories/%E4%B8%8B%E8%BD%BD/"/>
+    
+    
+      <category term="渗透资源下载" scheme="http://hxjget.com/tags/%E6%B8%97%E9%80%8F%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>图片</title>
+    <link href="http://hxjget.com/2019/11/07/image/"/>
+    <id>http://hxjget.com/2019/11/07/image/</id>
+    <published>2019-11-07T05:37:55.000Z</published>
+    <updated>2019-11-10T06:52:05.250Z</updated>
+    
+    <content type="html"><![CDATA[<p>更新2</p><h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><p><img src="/2019/11/07/image/1.jpg" srcset="/img/loading.gif" alt></p><h2 id="首先"><a href="#首先" class="headerlink" title="首先"></a>首先</h2><p>$LaTeX 数学公式编写$</p><p><strong>java</strong></p><pre><code>public static void Main(String args[]){    System.out.print(&quot;hello, world&quot;);}</code></pre><p><strong>python</strong></p><pre><code>pythonimport keywordprint(keyword.kwlist)</code></pre><p><strong>加粗</strong></p><p><em>斜体</em></p><p><del>删除线</del></p><h3 id="然后"><a href="#然后" class="headerlink" title="然后"></a>然后</h3><p><img src="/2019/11/07/image/1.jpg" srcset="/img/loading.gif" alt></p><p><a href="http://www.baidu.com" target="_blank" rel="noopener">百度</a></p><h3 id="hello"><a href="#hello" class="headerlink" title="hello"></a>hello</h3>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;更新2&lt;/p&gt;
+&lt;h3 id=&quot;图片&quot;&gt;&lt;a href=&quot;#图片&quot; class=&quot;headerlink&quot; title=&quot;图片&quot;&gt;&lt;/a&gt;图片&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/2019/11/07/image/1.jpg&quot; srcset=&quot;/img/loading.gif
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
