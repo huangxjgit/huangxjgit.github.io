@@ -13,7 +13,7 @@ body a {
   color: #3c4858;
 }
 body a:hover {
-  color: #1abc9c;
+  color: #3b8686;
 }
 .hover-with-bg {
   display: inline-block;
@@ -21,11 +21,6 @@ body a:hover {
 }
 .hover-with-bg:hover {
   background-color: #f8f9fa !important;
-}
-.visitors {
-  font-size: 0.8em;
-  padding: 0.45rem;
-  float: right;
 }
 #board {
   position: relative;
@@ -81,34 +76,16 @@ body a:hover {
   color: white;
 }
 .top-nav-collapse {
-  background-color: #2f4154;
+  background-color: #3b8686;
 }
 .navbar-col-show {
-  background-color: #2f4154;
+  background-color: #3b8686;
 }
 @media (max-width: 768px) {
   .navbar {
     font-size: 1rem;
     line-height: 2.5rem;
   }
-}
-.pagination a,
-.pagination .current {
-  outline: 0;
-  border: 0;
-  background-color: transparent;
-  font-size: 0.9rem;
-  padding: 0.5rem 0.75rem;
-  line-height: 1.25;
-  -webkit-border-radius: 0.125rem;
-  border-radius: 0.125rem;
-  -webkit-transition: all 0.3s linear;
-  -o-transition: all 0.3s linear;
-  transition: all 0.3s linear;
-}
-.pagination a:hover,
-.pagination .current {
-  background-color: #eee;
 }
 .scroll-down-bar {
   position: absolute;
@@ -237,22 +214,253 @@ body a:hover {
   -o-transform: rotate(-135deg);
   transform: rotate(-135deg);
 }
-.wechat {
-  cursor: pointer;
-  position: relative;
+.pagination a,
+.pagination .current {
+  outline: 0;
+  border: 0;
+  background-color: transparent;
+  font-size: 0.9rem;
+  padding: 0.5rem 0.75rem;
+  line-height: 1.25;
+  -webkit-border-radius: 0.125rem;
+  border-radius: 0.125rem;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
-.wechat:hover .wechat-qrcode {
-  display: block;
+.pagination a:hover,
+.pagination .current {
+  background-color: #eee;
 }
-.wechat-qrcode {
-  width: 200px;
-  height: 300px;
-  background: url("/img/wechat_icon.png") no-repeat;
-  background-size: 100%;
-  position: absolute;
-  right: -100px;
-  z-index: 99;
+.snow {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+#sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1040;
+  overflow-y: auto;
+  width: 300px;
+  height: 100%;
+  color: #3c4858;
+  background-color: rgba(246, 248, 250, 0.82);
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in;
+  -webkit-box-shadow: 0.25rem 0px 0.25rem 0px rgba(175,175,175,0.6);
+  box-shadow: 0.25rem 0px 0.25rem 0px rgba(175,175,175,0.6);
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+}
+#sidebar::-webkit-scrollbar {
   display: none;
+}
+.sidebar-hide {
+  margin-left: -300px;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.sidebar-button {
+  position: fixed;
+  z-index: 3;
+/* 按钮背景 */
+  padding: 0.5rem 0.7rem 0.5rem 0.3rem;
+  margin: 2rem 0 2rem 0;
+  border-radius: 0 3rem 3rem 0;
+  background-color: rgba(255,255,255,0.4);
+/* padding 1rem */
+  bottom: 0;
+  color: #99a9bf;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.sidebar-button:hover {
+  color: #3b8686;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.sidebar-button i {
+  transform: rotateZ(180deg);
+}
+.sidebar-button-shift {
+  left: 0;
+  color: #ffffff;
+  text-shadow: 0.1rem 0.1rem 0.5rem #3e3e3e;
+}
+.sidebar-button-shift i {
+  transform: rotateZ(0deg);
+}
+.sidebar-overlay {
+  display: none;
+  width: 100%;
+  height: 180px;
+  background-color: #fe91b4;
+  position: absolute;
+}
+.sidebar-intrude {
+  margin: 60px auto 0 auto;
+  z-index: 3;
+}
+.sidebar-avatar {
+  position: relative;
+  border: 5px solid #ffffff;
+  border-radius: 300px;
+  width: 128px;
+  height: 128px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  background-color: #88acdb;
+  -webkit-transition: all 0.2s ease-in;
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  text-align: center;
+}
+.sidebar-avatar img {
+  border: 0;
+  vertical-align: middle;
+  max-width: 100%;
+}
+.sidebar-about a {
+  color: #3c4858;
+}
+.sidebar-about a:hover {
+  color: #3b8686;
+}
+.sidebar-author {
+  margin: 0.67em 0;
+  font-family: Roboto, sans-serif;
+  font-size: 30px;
+  transition: 0.3s;
+}
+.sidebar-subtitle {
+  color: #999999;
+}
+.sidebar-label-left {
+  height: 100%;
+  padding: 0 7px 0 7px;
+  background-color: #3c4858;
+  float: left;
+}
+.sidebar-friend {
+  margin: 40px auto;
+  padding: 0;
+}
+.sidebar-friend-title {
+  max-width: 120px;
+  margin: 20px auto;
+  padding: 0;
+  line-height: 2rem;
+  color: #ffffff;
+  background-color: #fe91b4;
+  text-align: center;
+}
+.sidebar-friend a,
+a:hover {
+  -webkit-transition: 0.1s !important;
+  -o-transition: 0.1s !important;
+  transition: 0.1s !important;
+}
+.sidebar-friend a {
+  color: #3c4858;
+}
+.sidebar-friend a:hover {
+  color: #ffffff;
+}
+.sidebar-friend li {
+  width: calc(100% - 5rem);
+  margin: 0 auto;
+  background: none;
+  border-bottom: 1px dashed #bdbdbd;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.sidebar-friend li:hover {
+  background-color: #fe91b4;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.sidebar-friend i.fa-quote-left {
+  color: #bfbfbf;
+}
+.tocbot-link {
+  text-shadow: 0.1em 0.1em 0.2em #ffffff;
+}
+.tocbot-active-link {
+  text-shadow: 0.1em 0.1em 0.2em #ffbcbc;
+}
+footer {
+  color: #ffffff;
+  text-shadow: 0.1rem 0.1rem 0.5rem white;
+}
+footer a {
+  color: #ffffff;
+}
+footer a:hover {
+  color: #3b8686;
+}
+footer .iconfont {
+  color: #fc9d9a;
+  text-shadow: 0.1rem 0.1rem 0.5rem #ffffff;
+}
+.footer-theme a {
+  color: #fc9d9a;
+  text-shadow: 0.1rem 0.1rem 0.2rem #3b8686;
+}
+.footer-hitokoto {
+  max-width: 50rem;
+  margin: 0 auto;
+  max-height: 3rem;
+  overflow: hidden;
+}
+@media (max-width: 992px) {
+  .footer-hitokoto {
+    max-width: 80%;
+  }
+}
+#runtime,
+#busuanzi_value_site_pv,
+#busuanzi_value_site_uv {
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+#runtime:hover,
+#busuanzi_value_site_pv:hover,
+#busuanzi_value_site_uv:hover {
+  color: #3b8686;
+  text-shadow: 0.1rem 0.1rem 0.5rem white;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+::-webkit-scrollbar {
+  background-color: #cff09e;
+  width: 10px;
+  height: 10px;
+  background-clip: padding-box;
+}
+::-webkit-scrollbar-button {
+  display: none;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #79bd9a;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(45deg, rgba(255,255,255,0.2) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.2) 75%, transparent 75%, transparent);
+}
+::-webkit-scrollbar-corner {
+  background-color: #79bd9a;
 }
 @-moz-keyframes scroll-down {
   0% {
@@ -442,8 +650,38 @@ h6::before {
   width: 1px;
   visibility: hidden;
 }
+#post-note {
+  margin: 1rem 0;
+  padding: 0.5rem 0;
+  border-left: 3px solid;
+  background-color: #f9f9f9;
+  border-color: #eee;
+}
+#post-note div {
+  padding: 0.2rem 0.5rem;
+}
+#post-nav {
+  padding: 0;
+  width: 100%;
+}
+#post-nav-prev {
+  text-align: left;
+}
+#post-nav-next {
+  text-align: right;
+}
 #toc {
   padding: 3rem 0 0 0;
+  height: calc(100% - 9rem);
+}
+#tocbot {
+  max-height: 100%;
+  overflow-y: scroll;
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+}
+#tocbot::-webkit-scrollbar {
+  display: none;
 }
 #tocbot ol {
   list-style: none;
@@ -458,7 +696,7 @@ h6::before {
 }
 .tocbot-active-link {
   font-weight: 600;
-  color: #1abc9c;
+  color: #3b8686;
 }
 .tocbot-is-collapsible {
   max-height: 1000px;
@@ -492,6 +730,9 @@ h6::before {
     max-width: 64rem;
   }
 }
+.katex-block {
+  overflow-x: auto;
+}
 .about-avatar {
   position: relative;
   margin: -8rem auto 1rem;
@@ -524,5 +765,5 @@ h6::before {
   font-weight: 350;
 }
 .tagcloud a:hover {
-  color: #1abc9c !important;
+  color: #3b8686 !important;
 }

@@ -5,8 +5,8 @@
   
   <entry>
     <title>测试</title>
-    <link href="undefined2019/11/07/test/"/>
-    <url>2019/11/07/test/</url>
+    <link href="/2019/11/07/test/"/>
+    <url>/2019/11/07/test/</url>
     
     <content type="html"><![CDATA[]]></content>
     
@@ -24,8 +24,8 @@
   
   <entry>
     <title>渗透资源下载•置顶</title>
-    <link href="undefined2019/11/07/notice/"/>
-    <url>2019/11/07/notice/</url>
+    <link href="/2019/11/07/notice/"/>
+    <url>/2019/11/07/notice/</url>
     
     <content type="html"><![CDATA[<h3 id="渗透资源下载！"><a href="#渗透资源下载！" class="headerlink" title="渗透资源下载！"></a>渗透资源下载！</h3><p><a href="https://pan.baidu.com/s/1xOUPAC64NsZxBR-GficpbA" target="_blank" rel="noopener">VMware下载链接</a><br><img src="/2019/11/07/notice/vmware.jpg" srcset="/img/loading.gif" alt></p><p><a href="https://pan.baidu.com/s/1VbsaBHPVoAZdyYSJlSx5KQ" target="_blank" rel="noopener">kali_linux下载链接</a><br><img src="/2019/11/07/notice/kali.jpg" srcset="/img/loading.gif" alt></p>]]></content>
     
@@ -49,8 +49,8 @@
   
   <entry>
     <title>图片</title>
-    <link href="undefined2019/11/07/image/"/>
-    <url>2019/11/07/image/</url>
+    <link href="/2019/11/07/image/"/>
+    <url>/2019/11/07/image/</url>
     
     <content type="html"><![CDATA[<p>更新2</p><h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><p><img src="/2019/11/07/image/1.jpg" srcset="/img/loading.gif" alt></p><h2 id="首先"><a href="#首先" class="headerlink" title="首先"></a>首先</h2><p>$LaTeX 数学公式编写$</p><p><strong>java</strong></p><pre><code>public static void Main(String args[]){    System.out.print(&quot;hello, world&quot;);}</code></pre><p><strong>python</strong></p><pre><code>pythonimport keywordprint(keyword.kwlist)</code></pre><p><strong>加粗</strong></p><p><em>斜体</em></p><p><del>删除线</del></p><h3 id="然后"><a href="#然后" class="headerlink" title="然后"></a>然后</h3><p><img src="/2019/11/07/image/1.jpg" srcset="/img/loading.gif" alt></p><p><a href="http://www.baidu.com" target="_blank" rel="noopener">百度</a></p><h3 id="hello"><a href="#hello" class="headerlink" title="hello"></a>hello</h3>]]></content>
     
