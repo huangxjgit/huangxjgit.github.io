@@ -248,6 +248,11 @@
           ©2019&nbsp;熙军
         
         
+          
+            <i class="iconfont icon-love"></i>
+          
+          <span>安全运行<span id="runtime"></span>天啦</span>
+        
       </div>
     
 
@@ -448,6 +453,22 @@
   });
   
 </script>
+
+  <script type="text/javascript">
+    /*显示博客运行时间*/
+    var blogRunTime = function () {
+      var runTime = document.getElementById("runtime");
+      var runtimeDate = "2019,11,17";
+	    var createDate = new Date(runtimeDate);
+	    var nowDate = new Date();
+	    var dateLine = nowDate.getTime() - createDate.getTime();
+	    var runDate = Math.floor(dateLine / (1000 * 60 * 60 * 24));
+	    runTime.innerHTML = runDate;
+    };
+    $(document).ready(function(){
+	    blogRunTime();
+    });
+  </script>
 
 
   <script type="text/javascript">
