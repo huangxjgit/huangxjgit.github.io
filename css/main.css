@@ -407,14 +407,14 @@ footer a {
   color: #ffffff;
 }
 footer a:hover {
-  color: #3b8686;
+  color: #cbe86b;
 }
 footer .iconfont {
-  color: #fc9d9a;
+  color: #0b8080;
   text-shadow: 0.1rem 0.1rem 0.5rem #ffffff;
 }
 .footer-theme a {
-  color: #fc9d9a;
+  color: #0b8080;
   text-shadow: 0.1rem 0.1rem 0.2rem #3b8686;
 }
 .footer-hitokoto {
@@ -439,7 +439,7 @@ footer .iconfont {
 #runtime:hover,
 #busuanzi_value_site_pv:hover,
 #busuanzi_value_site_uv:hover {
-  color: #3b8686;
+  color: #cbe86b;
   text-shadow: 0.1rem 0.1rem 0.5rem white;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
