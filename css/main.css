@@ -360,7 +360,7 @@ body a:hover {
   padding: 0;
   line-height: 2rem;
   color: #ffffff;
-  background-color: #fe91b4;
+  background-color: #3b8686;
   text-align: center;
 }
 .sidebar-friend a,
@@ -385,7 +385,7 @@ a:hover {
   transition: all 0.2s ease-in-out;
 }
 .sidebar-friend li:hover {
-  background-color: #fe91b4;
+  background-color: #3b8686;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
