@@ -12,7 +12,7 @@
   <meta name="description" content="熙军博客,黄熙军">
   <meta name="author" content="熙军">
   <meta name="keywords" content="黄熙军,hxj">
-  <title>分类 ~ 小可熙军</title>
+  <title>Centos7修改国内yum源 ~ 小可熙军</title>
   <link rel="stylesheet" href="/lib/font-awesome/css/all.min.css"  >
 <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css"  >
 <link rel="stylesheet" href="/lib/mdbootstrap/css/mdb.min.css"  >
@@ -89,7 +89,7 @@
 </div>
 
 
-  <header style="height: 80vh;">
+  <header style="height: 70vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
@@ -156,6 +156,23 @@
               
             </span>
             
+              <br>
+              <p class="mt-3">
+                <i class="far fa-calendar-alt"></i>
+                <span class="post-date">2019-11-19&nbsp;|&nbsp;</span>
+                <i class="far fa-chart-bar"></i>
+                <span class="post-count">341</span>字&nbsp;|&nbsp;
+                <i class="far fa-clock"></i>
+                <span class="post-count">1</span>分钟
+                
+                  <span id="busuanzi_container_page_pv" style="display:none">
+                    &nbsp;|&nbsp;
+                    <i class="far fa-eye"></i>
+                    <span id="busuanzi_value_page_pv"></span>次
+                  </span>
+                
+              </p>
+            
           </div>
           
         </div>
@@ -164,20 +181,160 @@
   </header>
   <main id="mainContent" class="rgba-black-slight">
     
-      <div class="container nopadding-md" style="padding-top:0.5rem;padding-bottom:0.5rem;">
-        <div class="py-5 z-depth-3" id="board">
-          
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-10 m-auto">
-                
+      
 
-<ul class="category-tree-list"><li class="category-tree-list-item"><a class="category-tree-list-link" href="/categories/Linux/">Linux</a><span class="category-tree-list-count">1</span></li><li class="category-tree-list-item"><a class="category-tree-list-link" href="/categories/%E4%B8%8B%E8%BD%BD/">下载</a><span class="category-tree-list-count">1</span></li></ul>
-              </div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-md">
+      <div class="py-5 z-depth-3" id="board">
+        <div class="post-content mx-auto" id="post">
+          <div class="markdown-body">
+            <p>[转自]<a href="https://blog.csdn.net/kxwinxp/article/details/78578492" target="_blank" rel="noopener">https://blog.csdn.net/kxwinxp/article/details/78578492</a></p>
+<p>查看当前网络连接</p>
+<pre><code>ip address</code></pre><p>看到有两个设备：</p>
+<p>1: lo: &lt;LOOPBACK,UP,LOWER_UP&gt; mtu 65536 qdisc noqueue</p>
+<p>2: ens33: &lt;BROADCAST,MULTICAST,UP,LOWER_UP&gt; mtu 1500</p>
+<p>这是虚拟机网卡就是ens33了，云服务器的话是enp1s0</p>
+<pre><code>// 打开有线网配置
+vim /etc/sysconfig/network-scripts/ifcfg-enp1s0
+// 最后一行，修改为YES
+ONBOOT=YES
+// 重启网络服务
+systemctl restart network.service</code></pre><h1 id="1-更换yum源"><a href="#1-更换yum源" class="headerlink" title="1.更换yum源"></a>1.更换yum源</h1><pre><code># 下载wget工具
+yum install -y wget
+# 进入yum源配置文件所在文件夹
+cd /etc/yum.repos.d/
+# 备份本地yum源
+mv CentOS-Base.repo CentOS-Base.repo_bak
+# 获取国内yum源（阿里、163二选一）
+
+wget -O CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo
+# wget -O CentOS-Base.repo http://mirrors.163.com/.help/CentOS7-Base-163.repo
+
+# 清理yum缓存 
+yum clean all
+# 重建缓存 
+yum makecache 
+# 升级Linux系统
+yum -y update </code></pre><h1 id="2-增加epel源-可选"><a href="#2-增加epel源-可选" class="headerlink" title="2.增加epel源(可选)"></a>2.增加epel源(可选)</h1><pre><code>// 安装epel源
+yum install epel-release
+// 修改为阿里的epel源
+wget -O /etc/yum.repos.d/epel.repo http://mirrors.aliyun.com/repo/epel-7.repo
+
+// 安装yum源优先级管理工具
+yum install -y yum-priorities
+// 添加优先级（数字越小优先级越高）
+vim /etc/yum.repo.d/epel.repo
+priority=88
+// 添加优先级（这个数要小于epel里的88即可）
+vim /etc/yum.repo.d/Centos-7.repo
+priority=6
+
+// 开启yum源优先级功能
+vim /etc/yum/pluginconf.d/priorities.conf
+// 确保文件内容包含如下：
+[main]
+enabled=1</code></pre><p>结束</p>
+
+            <hr>
+          </div>
+          <br>
+          <div>
+            <div id="post-tag">
+              
+                <span>
+                  <i class="iconfont icon-inbox"></i>
+                  
+                    <a class="hover-with-bg" href="/categories/Linux">Linux</a>
+                    &nbsp;
+                  
+                </span>
+              
+              <span>
+                <i class="iconfont icon-tag"></i>
+                
+                  <a class="hover-with-bg" href="/tags/%E6%94%B9%E6%BA%90">改源</a>
+                
+              </span>
             </div>
+            
+              <div id="post-note">
+                <div><strong>本文作者：</strong><a href="/">熙</a></div>
+                <div><strong>本文链接：</strong><a href="http://hxjget.com/2019/11/19/centos7-change-yum/">http://hxjget.com/2019/11/19/centos7-change-yum/</a></div>
+                <div><strong>版权声明：</strong>本博客所有文章除特别声明外，均采用 <a href="https://zh.wikipedia.org/wiki/Wikipedia:CC_BY-SA_3.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC" target="_blank" rel="nofollow noopener noopener">CC BY-SA 3.0协议</a> 。转载请注明出处！</div>
+              </div>
+            
+            
+              <div id="post-nav" class="container">
+                  <div class="row">
+                    
+                    
+                      <a href="/2019/11/07/test/" id="post-nav-next" class="col">
+                        <span class="post-nav-title">测试</span>
+                        <i class="fas fa-arrow-right"></i>
+                      </a>
+                    
+                  </div>
+                </div>
+            
           </div>
         </div>
+
+        <!-- custom -->
+        
+
+        <!-- Comments -->
+        <div class="col-lg-10 mx-auto nopadding-md">
+          <div class="container comments mx-auto" id="comments">
+            
+             <br><br>
+              
+              
+  <div id="gitalk-container"></div>
+  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/blueimp-md5@2.11.1/js/md5.min.js"></script>
+  <script type="text/javascript">
+    var gitalk = new Gitalk({
+      clientID: '4d6a9a4b927a542eb89d',
+      clientSecret: '852b3a41045c83b2fdac8127cce0375c66336917',
+      repo: 'huangxjgit.github.io',
+      owner: 'huangxjgit',
+      admin: 'huangxjgit',
+      id: md5(location.pathname),
+      language: 'zh-CN',
+      perPage: 15,
+      pagerDirection: 'last',
+      createIssueManually: 'true',
+      distractionFreeMode: 'false'
+    });
+
+    gitalk.render('gitalk-container')
+  </script>
+
+            
+          </div>
+        </div>
+
       </div>
+    </div>
+    <div class="d-none d-lg-block col-lg-2 toc-container">
+      
+  <div id="toc">
+    <p class="h4"><i class="far fa-list-alt"></i>&nbsp;目录</p>
+    <div id="tocbot"></div>
+  </div>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
     
   </main>
   
@@ -270,6 +427,11 @@
   <script src="/js/lazyload.js" ></script>
 
 
+  
+    <script src="/lib/tocbot/tocbot.min.js" ></script>
+  
+  <script src="/js/post.js" ></script>
+
 <!-- Plugins -->
 
   <script src="/lib/prettify/prettify.min.js" ></script>
@@ -286,7 +448,7 @@
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "分类&nbsp;",
+        "Centos7修改国内yum源&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,
@@ -326,6 +488,20 @@
     }
   </script>
 
+
+  <script src="/lib/fancybox/jquery.fancybox.min.js" ></script>
+  <script type="text/javascript">
+  /* Fancybox */
+  var setupFancybox = function () {
+    $("#post img:not(.no-zoom img, img[no-zoom])").each(function() {
+    var element = document.createElement("a");
+      $(element).attr("data-fancybox", "gallery");
+      $(element).attr("href", $(this).attr("src"));
+      $(this).wrap(element);
+    });
+  };
+  setupFancybox();
+  </script>
 
 
 

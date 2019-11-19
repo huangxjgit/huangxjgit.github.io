@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>Centos7修改国内yum源</title>
+    <link href="/2019/11/19/centos7-change-yum/"/>
+    <url>/2019/11/19/centos7-change-yum/</url>
+    
+    <content type="html"><![CDATA[<p>[转自]<a href="https://blog.csdn.net/kxwinxp/article/details/78578492" target="_blank" rel="noopener">https://blog.csdn.net/kxwinxp/article/details/78578492</a></p><p>查看当前网络连接</p><pre><code>ip address</code></pre><p>看到有两个设备：</p><p>1: lo: &lt;LOOPBACK,UP,LOWER_UP&gt; mtu 65536 qdisc noqueue</p><p>2: ens33: &lt;BROADCAST,MULTICAST,UP,LOWER_UP&gt; mtu 1500</p><p>这是虚拟机网卡就是ens33了，云服务器的话是enp1s0</p><pre><code>// 打开有线网配置vim /etc/sysconfig/network-scripts/ifcfg-enp1s0// 最后一行，修改为YESONBOOT=YES// 重启网络服务systemctl restart network.service</code></pre><h1 id="1-更换yum源"><a href="#1-更换yum源" class="headerlink" title="1.更换yum源"></a>1.更换yum源</h1><pre><code># 下载wget工具yum install -y wget# 进入yum源配置文件所在文件夹cd /etc/yum.repos.d/# 备份本地yum源mv CentOS-Base.repo CentOS-Base.repo_bak# 获取国内yum源（阿里、163二选一）wget -O CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo# wget -O CentOS-Base.repo http://mirrors.163.com/.help/CentOS7-Base-163.repo# 清理yum缓存 yum clean all# 重建缓存 yum makecache # 升级Linux系统yum -y update </code></pre><h1 id="2-增加epel源-可选"><a href="#2-增加epel源-可选" class="headerlink" title="2.增加epel源(可选)"></a>2.增加epel源(可选)</h1><pre><code>// 安装epel源yum install epel-release// 修改为阿里的epel源wget -O /etc/yum.repos.d/epel.repo http://mirrors.aliyun.com/repo/epel-7.repo// 安装yum源优先级管理工具yum install -y yum-priorities// 添加优先级（数字越小优先级越高）vim /etc/yum.repo.d/epel.repopriority=88// 添加优先级（这个数要小于epel里的88即可）vim /etc/yum.repo.d/Centos-7.repopriority=6// 开启yum源优先级功能vim /etc/yum/pluginconf.d/priorities.conf// 确保文件内容包含如下：[main]enabled=1</code></pre><p>结束</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Linux</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>改源</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>测试</title>
     <link href="/2019/11/07/test/"/>
     <url>/2019/11/07/test/</url>
