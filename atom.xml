@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hxjget.com/"/>
-  <updated>2019-11-19T06:33:08.606Z</updated>
+  <updated>2019-11-20T05:20:04.467Z</updated>
   <id>http://hxjget.com/</id>
   
   <author>
@@ -15,6 +15,21 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>awd攻防平台搭建</title>
+    <link href="http://hxjget.com/2019/11/20/awd%E6%94%BB%E9%98%B2%E5%B9%B3%E5%8F%B0%E6%90%AD%E5%BB%BA/"/>
+    <id>http://hxjget.com/2019/11/20/awd%E6%94%BB%E9%98%B2%E5%B9%B3%E5%8F%B0%E6%90%AD%E5%BB%BA/</id>
+    <published>2019-11-20T05:20:03.000Z</published>
+    <updated>2019-11-20T05:20:04.467Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Centos7修改国内yum源</title>
