@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hxjget.com/"/>
-  <updated>2019-11-20T05:24:58.785Z</updated>
+  <updated>2019-11-20T05:31:30.752Z</updated>
   <id>http://hxjget.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>markdown语法</title>
+    <link href="http://hxjget.com/2019/11/20/markdown%E8%AF%AD%E6%B3%95/"/>
+    <id>http://hxjget.com/2019/11/20/markdown%E8%AF%AD%E6%B3%95/</id>
+    <published>2019-11-20T05:28:28.000Z</published>
+    <updated>2019-11-20T05:31:30.752Z</updated>
+    
+    <content type="html"><![CDATA[<p>更新2</p><h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><p><img src="/2019/11/20/markdown%E8%AF%AD%E6%B3%95/1.jpg" srcset="/img/loading.gif" alt></p><h2 id="首先"><a href="#首先" class="headerlink" title="首先"></a>首先</h2><p>$LaTeX 数学公式编写$</p><p><strong>java</strong></p><pre><code>public static void Main(String args[]){    System.out.print(&quot;hello, world&quot;);}</code></pre><p><strong>python</strong></p><pre><code>pythonimport keywordprint(keyword.kwlist)</code></pre><p><strong>加粗</strong></p><p><em>斜体</em></p><p><del>删除线</del></p><h3 id="然后"><a href="#然后" class="headerlink" title="然后"></a>然后</h3><p><img src="/img/getMoney.png" srcset="/img/loading.gif" alt></p><p><a href="http://www.baidu.com" target="_blank" rel="noopener">百度</a></p><h3 id="hello"><a href="#hello" class="headerlink" title="hello"></a>hello</h3>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;更新2&lt;/p&gt;
+&lt;h3 id=&quot;图片&quot;&gt;&lt;a href=&quot;#图片&quot; class=&quot;headerlink&quot; title=&quot;图片&quot;&gt;&lt;/a&gt;图片&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/2019/11/20/markdown%E8%AF%AD%E6%B3%95/1.jpg&quot; src
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>awd攻防平台搭建</title>
@@ -67,23 +90,6 @@
   </entry>
   
   <entry>
-    <title>测试</title>
-    <link href="http://hxjget.com/2019/11/07/test/"/>
-    <id>http://hxjget.com/2019/11/07/test/</id>
-    <published>2019-11-07T13:57:41.000Z</published>
-    <updated>2019-11-10T06:52:09.266Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-    
-      <category term="测试" scheme="http://hxjget.com/tags/%E6%B5%8B%E8%AF%95/"/>
-    
-  </entry>
-  
-  <entry>
     <title>渗透资源下载•置顶</title>
     <link href="http://hxjget.com/2019/11/07/notice/"/>
     <id>http://hxjget.com/2019/11/07/notice/</id>
@@ -106,29 +112,6 @@
     
     
       <category term="渗透资源下载" scheme="http://hxjget.com/tags/%E6%B8%97%E9%80%8F%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>图片</title>
-    <link href="http://hxjget.com/2019/11/07/image/"/>
-    <id>http://hxjget.com/2019/11/07/image/</id>
-    <published>2019-11-07T05:37:55.000Z</published>
-    <updated>2019-11-10T06:52:05.250Z</updated>
-    
-    <content type="html"><![CDATA[<p>更新2</p><h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><p><img src="/2019/11/07/image/1.jpg" srcset="/img/loading.gif" alt></p><h2 id="首先"><a href="#首先" class="headerlink" title="首先"></a>首先</h2><p>$LaTeX 数学公式编写$</p><p><strong>java</strong></p><pre><code>public static void Main(String args[]){    System.out.print(&quot;hello, world&quot;);}</code></pre><p><strong>python</strong></p><pre><code>pythonimport keywordprint(keyword.kwlist)</code></pre><p><strong>加粗</strong></p><p><em>斜体</em></p><p><del>删除线</del></p><h3 id="然后"><a href="#然后" class="headerlink" title="然后"></a>然后</h3><p><img src="/2019/11/07/image/1.jpg" srcset="/img/loading.gif" alt></p><p><a href="http://www.baidu.com" target="_blank" rel="noopener">百度</a></p><h3 id="hello"><a href="#hello" class="headerlink" title="hello"></a>hello</h3>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;更新2&lt;/p&gt;
-&lt;h3 id=&quot;图片&quot;&gt;&lt;a href=&quot;#图片&quot; class=&quot;headerlink&quot; title=&quot;图片&quot;&gt;&lt;/a&gt;图片&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;/2019/11/07/image/1.jpg&quot; srcset=&quot;/img/loading.gif
-      
-    
-    </summary>
-    
-    
     
   </entry>
   

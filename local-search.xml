@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>markdown语法</title>
+    <link href="/2019/11/20/markdown%E8%AF%AD%E6%B3%95/"/>
+    <url>/2019/11/20/markdown%E8%AF%AD%E6%B3%95/</url>
+    
+    <content type="html"><![CDATA[<p>更新2</p><h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><p><img src="/2019/11/20/markdown%E8%AF%AD%E6%B3%95/1.jpg" srcset="/img/loading.gif" alt></p><h2 id="首先"><a href="#首先" class="headerlink" title="首先"></a>首先</h2><p>$LaTeX 数学公式编写$</p><p><strong>java</strong></p><pre><code>public static void Main(String args[]){    System.out.print(&quot;hello, world&quot;);}</code></pre><p><strong>python</strong></p><pre><code>pythonimport keywordprint(keyword.kwlist)</code></pre><p><strong>加粗</strong></p><p><em>斜体</em></p><p><del>删除线</del></p><h3 id="然后"><a href="#然后" class="headerlink" title="然后"></a>然后</h3><p><img src="/img/getMoney.png" srcset="/img/loading.gif" alt></p><p><a href="http://www.baidu.com" target="_blank" rel="noopener">百度</a></p><h3 id="hello"><a href="#hello" class="headerlink" title="hello"></a>hello</h3>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>awd攻防平台搭建</title>
     <link href="/2019/11/20/awd%E6%94%BB%E9%98%B2%E5%B9%B3%E5%8F%B0%E6%90%AD%E5%BB%BA/"/>
     <url>/2019/11/20/awd%E6%94%BB%E9%98%B2%E5%B9%B3%E5%8F%B0%E6%90%AD%E5%BB%BA/</url>
@@ -48,25 +61,6 @@
   
   
   <entry>
-    <title>测试</title>
-    <link href="/2019/11/07/test/"/>
-    <url>/2019/11/07/test/</url>
-    
-    <content type="html"><![CDATA[]]></content>
-    
-    
-    
-    <tags>
-      
-      <tag>测试</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>渗透资源下载•置顶</title>
     <link href="/2019/11/07/notice/"/>
     <url>/2019/11/07/notice/</url>
@@ -86,19 +80,6 @@
       <tag>渗透资源下载</tag>
       
     </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>图片</title>
-    <link href="/2019/11/07/image/"/>
-    <url>/2019/11/07/image/</url>
-    
-    <content type="html"><![CDATA[<p>更新2</p><h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><p><img src="/2019/11/07/image/1.jpg" srcset="/img/loading.gif" alt></p><h2 id="首先"><a href="#首先" class="headerlink" title="首先"></a>首先</h2><p>$LaTeX 数学公式编写$</p><p><strong>java</strong></p><pre><code>public static void Main(String args[]){    System.out.print(&quot;hello, world&quot;);}</code></pre><p><strong>python</strong></p><pre><code>pythonimport keywordprint(keyword.kwlist)</code></pre><p><strong>加粗</strong></p><p><em>斜体</em></p><p><del>删除线</del></p><h3 id="然后"><a href="#然后" class="headerlink" title="然后"></a>然后</h3><p><img src="/2019/11/07/image/1.jpg" srcset="/img/loading.gif" alt></p><p><a href="http://www.baidu.com" target="_blank" rel="noopener">百度</a></p><h3 id="hello"><a href="#hello" class="headerlink" title="hello"></a>hello</h3>]]></content>
-    
-    
     
   </entry>
   
