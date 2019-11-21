@@ -203,27 +203,31 @@
       <br><br>
       
       
-  <div id="gitalk-container"></div>
-  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/blueimp-md5@2.11.1/js/md5.min.js"></script>
-  <script type="text/javascript">
-    var gitalk = new Gitalk({
-      clientID: '4d6a9a4b927a542eb89d',
-      clientSecret: '852b3a41045c83b2fdac8127cce0375c66336917',
-      repo: 'huangxjgit.github.io',
-      owner: 'huangxjgit',
-      admin: 'huangxjgit',
-      id: md5(location.pathname),
-      language: 'zh-CN',
-      perPage: 15,
-      pagerDirection: 'last',
-      createIssueManually: 'true',
-      distractionFreeMode: 'false'
-    });
-
-    gitalk.render('gitalk-container')
+  <div id="vcomments" style="margin: 0 auto;"></div>
+  <script defer src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script defer src="//cdn.jsdelivr.net/npm/valine@1.3.10/dist/Valine.min.js"></script>
+  <script>
+    var notify = 'true' == true ? true : false;
+    var verify = 'false' == true ? true : false;
+    var oldLoad = window.onload;
+    window.onload = function () {
+      new Valine({
+        el: '#vcomments',
+        notify: notify,
+        verify: verify,
+        app_id: "yd8cFX5e92n09kxK6INg4zNT-gzGzoHsz",
+        app_key: "VXguqdy6C2K0Op1gGVBaG3ls",
+        placeholder: "(/≧▽≦)/",
+        avatar: "retro",
+        meta: ['nick', 'mail', 'link'],
+        pageSize: "10"
+      });
+      oldLoad && oldLoad();
+    };
   </script>
+  <noscript>Please enable JavaScript to view the <a href="https://valine.js.org" target="_blank" rel="nofollow noopener noopener">comments
+      powered by Valine.</a></noscript>
+
 
     
   </div>
