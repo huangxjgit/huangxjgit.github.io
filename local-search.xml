@@ -11,10 +11,16 @@
     <content type="html"><![CDATA[<h1 id="nvm的安装"><a href="#nvm的安装" class="headerlink" title="nvm的安装"></a>nvm的安装</h1><p>deepin终端下：</p><pre><code>wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash</code></pre><p>然后执行</p><pre><code>source ~/.bashrc</code></pre><p>再执行 nvm –version输出版本号说明安装nvm成功。</p><h1 id="安装nodejs"><a href="#安装nodejs" class="headerlink" title="安装nodejs"></a>安装nodejs</h1><p>安装好nvm后，终端执行</p><pre><code>nvm install stable</code></pre><p>等待安装成功。<br>最后分别执行</p><pre><code>node -v npm -v</code></pre><p>查看安装的node和npm的版本。</p>]]></content>
     
     
+    <categories>
+      
+      <category>Linux</category>
+      
+    </categories>
+    
     
     <tags>
       
-      <tag>linux</tag>
+      <tag>nodejs</tag>
       
     </tags>
     

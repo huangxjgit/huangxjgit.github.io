@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hxjget.com/"/>
-  <updated>2019-11-29T06:37:34.782Z</updated>
+  <updated>2019-11-30T03:06:35.798Z</updated>
   <id>http://hxjget.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://hxjget.com/2019/11/29/deepin%E5%AE%89%E8%A3%85nodejs%E5%8F%8Anvm/"/>
     <id>http://hxjget.com/2019/11/29/deepin%E5%AE%89%E8%A3%85nodejs%E5%8F%8Anvm/</id>
     <published>2019-11-29T06:32:51.000Z</published>
-    <updated>2019-11-29T06:37:34.782Z</updated>
+    <updated>2019-11-30T03:06:35.798Z</updated>
     
     <content type="html"><![CDATA[<h1 id="nvm的安装"><a href="#nvm的安装" class="headerlink" title="nvm的安装"></a>nvm的安装</h1><p>deepin终端下：</p><pre><code>wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash</code></pre><p>然后执行</p><pre><code>source ~/.bashrc</code></pre><p>再执行 nvm –version输出版本号说明安装nvm成功。</p><h1 id="安装nodejs"><a href="#安装nodejs" class="headerlink" title="安装nodejs"></a>安装nodejs</h1><p>安装好nvm后，终端执行</p><pre><code>nvm install stable</code></pre><p>等待安装成功。<br>最后分别执行</p><pre><code>node -v npm -v</code></pre><p>查看安装的node和npm的版本。</p>]]></content>
     
@@ -36,8 +36,10 @@
     </summary>
     
     
+      <category term="Linux" scheme="http://hxjget.com/categories/Linux/"/>
     
-      <category term="linux" scheme="http://hxjget.com/tags/linux/"/>
+    
+      <category term="nodejs" scheme="http://hxjget.com/tags/nodejs/"/>
     
   </entry>
   
