@@ -240,6 +240,62 @@ kali_linux下载链接
     
       
       <div class="col-12 col-md-4 m-auto">
+        <a href="/2019/12/03/deepin%E5%AE%89%E8%A3%85apache%E5%8F%8Aphp%E5%92%8Cmysql%E9%85%8D%E7%BD%AE%E7%BD%91%E7%AB%99/" target="_self">
+          <img src="/img/default.png" alt="deepin安装apache及php和mysql配置网站" class="img-fluid rounded z-depth-3 index-thumbnails image_random">
+        </a>
+      </div>
+      
+      <div class="col-12 col-md-8 m-auto">
+    
+      <a href="/2019/12/03/deepin%E5%AE%89%E8%A3%85apache%E5%8F%8Aphp%E5%92%8Cmysql%E9%85%8D%E7%BD%AE%E7%BD%91%E7%AB%99/" target="_self">
+        <p class="h4 index-header">deepin安装apache及php和mysql配置网站</p>
+        
+        
+          
+        
+        <div class="index-excerpt" >
+          <div class="index-text mb-1">#begin
+安装apache2
+apt-get install apache2
+安装php
+apt-get install php需要apache支持php需要安装插件查询适合的php插件
+sudo apt-cache search libapache2-mod-php
+安装php插件
+sudo apt-get install libapache2-mod-php7.0 
+安装完成后编写简单的php看一下能不能访问
+cd /var/www/html新建test.php文件
+&lt;?php
+phpinfo();
+?&gt;保存并退出
+输入127.0.0.1/test.php产看能否访问
+安装mysql
+sudo apt-get install mysql-server启动和关闭mysql
+service mysql stop
+
+service mysql start确认mysql是否启动成功
+sudo netstat -tap | grep mysql进入mysql shell
+mysql -u root -p</div>
+        </div>
+      </a>
+      <div>
+        
+          <i class="iconfont icon-riqi2"></i>&nbsp;2019-12-03&nbsp;&nbsp;
+        
+        
+        <i class="far fa-chart-bar"></i>&nbsp;143字&nbsp;&nbsp;
+        <i class="far fa-clock"></i>&nbsp;1分钟&nbsp;&nbsp;
+        
+        
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="row mb-4 mx-auto">
+    
+    
+      
+      <div class="col-12 col-md-4 m-auto">
         <a href="/2019/11/29/deepin%E5%AE%89%E8%A3%85nodejs%E5%8F%8Anvm/" target="_self">
           <img src="/img/default.png" alt="deepin安装nodejs及nvm" class="img-fluid rounded z-depth-3 index-thumbnails image_random">
         </a>
