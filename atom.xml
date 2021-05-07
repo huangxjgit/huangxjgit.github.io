@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hxjget.com/"/>
-  <updated>2019-12-03T07:33:56.640Z</updated>
+  <updated>2021-05-07T14:37:20.258Z</updated>
   <id>http://hxjget.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>100个人找出谁是老板</title>
+    <link href="http://hxjget.com/2021/05/07/100%E4%B8%AA%E4%BA%BA%E6%89%BE%E5%87%BA%E8%B0%81%E6%98%AF%E8%80%81%E6%9D%BF/"/>
+    <id>http://hxjget.com/2021/05/07/100%E4%B8%AA%E4%BA%BA%E6%89%BE%E5%87%BA%E8%B0%81%E6%98%AF%E8%80%81%E6%9D%BF/</id>
+    <published>2021-05-07T14:23:04.000Z</published>
+    <updated>2021-05-07T14:37:20.258Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="找老板"><a href="#找老板" class="headerlink" title="找老板"></a>找老板</h1><p><b style="background:yellow;">有100个员工 其中一个是老板 老板总是说真话 员工说话是一真一假 也有可能是一假一真 抽一个人问2个问题 找出谁是老板</b></p><p><b style="font-size:16px;">首先，找一个人，问1+1=2吗？回答否，那么问老板是谁，他会把老板指出来。如果回答是，那么问，谁是员工，他会把指一个人出来，那么问那个人第一个问题1+1=2吗？他回答是，那么再问他1+1=2吗？如果还是是，那他就是老板，如果回答否，那么第一个人就是老板。</b></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;找老板&quot;&gt;&lt;a href=&quot;#找老板&quot; class=&quot;headerlink&quot; title=&quot;找老板&quot;&gt;&lt;/a&gt;找老板&lt;/h1&gt;&lt;p&gt;&lt;b style=&quot;background:yellow;&quot;&gt;有100个员工 其中一个是老板 老板总是说真话 员工说话是一真一假 也有
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>deepin安装apache及php和mysql配置网站</title>
