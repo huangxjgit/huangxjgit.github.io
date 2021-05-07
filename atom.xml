@@ -5,9 +5,9 @@
   <subtitle>觉得自己做得到和做不到，其实只在一念之间!</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://hxjget.com/"/>
+  <link href="http://www.hellohxj.com/"/>
   <updated>2021-05-07T14:37:20.258Z</updated>
-  <id>http://hxjget.com/</id>
+  <id>http://www.hellohxj.com/</id>
   
   <author>
     <name>熙军</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>100个人找出谁是老板</title>
-    <link href="http://hxjget.com/2021/05/07/100%E4%B8%AA%E4%BA%BA%E6%89%BE%E5%87%BA%E8%B0%81%E6%98%AF%E8%80%81%E6%9D%BF/"/>
-    <id>http://hxjget.com/2021/05/07/100%E4%B8%AA%E4%BA%BA%E6%89%BE%E5%87%BA%E8%B0%81%E6%98%AF%E8%80%81%E6%9D%BF/</id>
+    <link href="http://www.hellohxj.com/2021/05/07/100%E4%B8%AA%E4%BA%BA%E6%89%BE%E5%87%BA%E8%B0%81%E6%98%AF%E8%80%81%E6%9D%BF/"/>
+    <id>http://www.hellohxj.com/2021/05/07/100%E4%B8%AA%E4%BA%BA%E6%89%BE%E5%87%BA%E8%B0%81%E6%98%AF%E8%80%81%E6%9D%BF/</id>
     <published>2021-05-07T14:23:04.000Z</published>
     <updated>2021-05-07T14:37:20.258Z</updated>
     
@@ -40,8 +40,8 @@
   
   <entry>
     <title>deepin安装apache及php和mysql配置网站</title>
-    <link href="http://hxjget.com/2019/12/03/deepin%E5%AE%89%E8%A3%85apache%E5%8F%8Aphp%E5%92%8Cmysql%E9%85%8D%E7%BD%AE%E7%BD%91%E7%AB%99/"/>
-    <id>http://hxjget.com/2019/12/03/deepin%E5%AE%89%E8%A3%85apache%E5%8F%8Aphp%E5%92%8Cmysql%E9%85%8D%E7%BD%AE%E7%BD%91%E7%AB%99/</id>
+    <link href="http://www.hellohxj.com/2019/12/03/deepin%E5%AE%89%E8%A3%85apache%E5%8F%8Aphp%E5%92%8Cmysql%E9%85%8D%E7%BD%AE%E7%BD%91%E7%AB%99/"/>
+    <id>http://www.hellohxj.com/2019/12/03/deepin%E5%AE%89%E8%A3%85apache%E5%8F%8Aphp%E5%92%8Cmysql%E9%85%8D%E7%BD%AE%E7%BD%91%E7%AB%99/</id>
     <published>2019-12-03T07:20:31.000Z</published>
     <updated>2019-12-03T07:33:56.640Z</updated>
     
@@ -62,8 +62,8 @@
   
   <entry>
     <title>deepin安装nodejs及nvm</title>
-    <link href="http://hxjget.com/2019/11/29/deepin%E5%AE%89%E8%A3%85nodejs%E5%8F%8Anvm/"/>
-    <id>http://hxjget.com/2019/11/29/deepin%E5%AE%89%E8%A3%85nodejs%E5%8F%8Anvm/</id>
+    <link href="http://www.hellohxj.com/2019/11/29/deepin%E5%AE%89%E8%A3%85nodejs%E5%8F%8Anvm/"/>
+    <id>http://www.hellohxj.com/2019/11/29/deepin%E5%AE%89%E8%A3%85nodejs%E5%8F%8Anvm/</id>
     <published>2019-11-29T06:32:51.000Z</published>
     <updated>2019-11-30T03:06:35.798Z</updated>
     
@@ -80,17 +80,17 @@
     </summary>
     
     
-      <category term="Linux" scheme="http://hxjget.com/categories/Linux/"/>
+      <category term="Linux" scheme="http://www.hellohxj.com/categories/Linux/"/>
     
     
-      <category term="nodejs" scheme="http://hxjget.com/tags/nodejs/"/>
+      <category term="nodejs" scheme="http://www.hellohxj.com/tags/nodejs/"/>
     
   </entry>
   
   <entry>
     <title>markdown语法</title>
-    <link href="http://hxjget.com/2019/11/20/markdown%E8%AF%AD%E6%B3%95/"/>
-    <id>http://hxjget.com/2019/11/20/markdown%E8%AF%AD%E6%B3%95/</id>
+    <link href="http://www.hellohxj.com/2019/11/20/markdown%E8%AF%AD%E6%B3%95/"/>
+    <id>http://www.hellohxj.com/2019/11/20/markdown%E8%AF%AD%E6%B3%95/</id>
     <published>2019-11-20T05:28:28.000Z</published>
     <updated>2019-12-29T16:24:56.696Z</updated>
     
@@ -112,8 +112,8 @@
   
   <entry>
     <title>awd攻防平台搭建</title>
-    <link href="http://hxjget.com/2019/11/20/awd%E6%94%BB%E9%98%B2%E5%B9%B3%E5%8F%B0%E6%90%AD%E5%BB%BA/"/>
-    <id>http://hxjget.com/2019/11/20/awd%E6%94%BB%E9%98%B2%E5%B9%B3%E5%8F%B0%E6%90%AD%E5%BB%BA/</id>
+    <link href="http://www.hellohxj.com/2019/11/20/awd%E6%94%BB%E9%98%B2%E5%B9%B3%E5%8F%B0%E6%90%AD%E5%BB%BA/"/>
+    <id>http://www.hellohxj.com/2019/11/20/awd%E6%94%BB%E9%98%B2%E5%B9%B3%E5%8F%B0%E6%90%AD%E5%BB%BA/</id>
     <published>2019-11-20T05:20:03.000Z</published>
     <updated>2019-11-20T05:24:58.785Z</updated>
     
@@ -129,15 +129,15 @@
     </summary>
     
     
-      <category term="网络安全" scheme="http://hxjget.com/categories/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/"/>
+      <category term="网络安全" scheme="http://www.hellohxj.com/categories/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/"/>
     
     
   </entry>
   
   <entry>
     <title>Centos7修改国内yum源</title>
-    <link href="http://hxjget.com/2019/11/19/centos7-change-yum/"/>
-    <id>http://hxjget.com/2019/11/19/centos7-change-yum/</id>
+    <link href="http://www.hellohxj.com/2019/11/19/centos7-change-yum/"/>
+    <id>http://www.hellohxj.com/2019/11/19/centos7-change-yum/</id>
     <published>2019-11-19T06:08:27.000Z</published>
     <updated>2019-11-19T06:33:08.606Z</updated>
     
@@ -153,17 +153,17 @@
     </summary>
     
     
-      <category term="Linux" scheme="http://hxjget.com/categories/Linux/"/>
+      <category term="Linux" scheme="http://www.hellohxj.com/categories/Linux/"/>
     
     
-      <category term="改源" scheme="http://hxjget.com/tags/%E6%94%B9%E6%BA%90/"/>
+      <category term="改源" scheme="http://www.hellohxj.com/tags/%E6%94%B9%E6%BA%90/"/>
     
   </entry>
   
   <entry>
     <title>渗透资源下载•置顶</title>
-    <link href="http://hxjget.com/2019/11/07/notice/"/>
-    <id>http://hxjget.com/2019/11/07/notice/</id>
+    <link href="http://www.hellohxj.com/2019/11/07/notice/"/>
+    <id>http://www.hellohxj.com/2019/11/07/notice/</id>
     <published>2019-11-07T13:55:22.000Z</published>
     <updated>2019-12-29T16:25:00.893Z</updated>
     
@@ -179,10 +179,10 @@
     </summary>
     
     
-      <category term="下载" scheme="http://hxjget.com/categories/%E4%B8%8B%E8%BD%BD/"/>
+      <category term="下载" scheme="http://www.hellohxj.com/categories/%E4%B8%8B%E8%BD%BD/"/>
     
     
-      <category term="渗透资源下载" scheme="http://hxjget.com/tags/%E6%B8%97%E9%80%8F%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD/"/>
+      <category term="渗透资源下载" scheme="http://www.hellohxj.com/tags/%E6%B8%97%E9%80%8F%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD/"/>
     
   </entry>
   
