@@ -240,6 +240,45 @@ kali_linux下载链接
     
       
       <div class="col-12 col-md-4 m-auto">
+        <a href="/2021/05/23/ipV4%E7%9A%84%E5%AD%90%E7%BD%91%E5%88%92%E5%88%86/" target="_self">
+          <img src="/img/default.png" alt="ipV4的子网划分" class="img-fluid rounded z-depth-3 index-thumbnails image_random">
+        </a>
+      </div>
+      
+      <div class="col-12 col-md-8 m-auto">
+    
+      <a href="/2021/05/23/ipV4%E7%9A%84%E5%AD%90%E7%BD%91%E5%88%92%E5%88%86/" target="_self">
+        <p class="h4 index-header">ipV4的子网划分</p>
+        
+        
+          
+        
+        <div class="index-excerpt" >
+          <div class="index-text mb-1">ipv4的子网划分一个主机的ip地址是 171.64.120.8它是一个b类地址默认的子网掩码是255.255.0.0现在给它一个新的子网掩码255.255.128.0那么：    该子网的网络地址        该子网的广播地址        该子网的主机地址范围        创建的子网数        每个子网的主机数是多少？
+创建的子网数把新的子网掩码转换成二进制255.255.128.0 —-&gt;11111111.11111111.10000000.00000000默认的子网掩码转换成二进制255.255.0.0 —-&gt;11111111.11111111.00000000.00000000新的子网掩码把默认的主机位占了一位所以创建的子网数是2的一次方为2
+每个子网的主机数每个子网的主机数为2的新的子网掩码0站的位数的次方-2（减2是因为首地址和末地址不使用）所以主机数为：2的15次方减2=32766
+该子网的网络地址把该地址转换成二进制与新的子网掩码进行二进制与运算得到网络地址把新的子网掩码转换成二进制255.255.128.0 —-&gt;11111111.111</div>
+        </div>
+      </a>
+      <div>
+        
+          <i class="iconfont icon-riqi2"></i>&nbsp;2021-05-23&nbsp;&nbsp;
+        
+        
+        <i class="far fa-chart-bar"></i>&nbsp;465字&nbsp;&nbsp;
+        <i class="far fa-clock"></i>&nbsp;1分钟&nbsp;&nbsp;
+        
+        
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="row mb-4 mx-auto">
+    
+    
+      
+      <div class="col-12 col-md-4 m-auto">
         <a href="/2021/05/07/100%E4%B8%AA%E4%BA%BA%E6%89%BE%E5%87%BA%E8%B0%81%E6%98%AF%E8%80%81%E6%9D%BF/" target="_self">
           <img src="/img/default.png" alt="100个人找出谁是老板" class="img-fluid rounded z-depth-3 index-thumbnails image_random">
         </a>
@@ -622,13 +661,6 @@ mv CentOS-Base.repo CentOS-Base.repo_bak
       </div>
     
 
-    
-      <!-- 备案信息 -->
-      <div class="footer-beian">
-        <a href="http://beian.miit.gov.cn/" target="_blank"
-          rel="nofollow noopener noreferrer"></a>
-        
-      </div>
     
 
     

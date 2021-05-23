@@ -5,9 +5,9 @@
   <subtitle>乾坤未定！你我都是黑马！</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://www.hellohxj.com/"/>
-  <updated>2021-05-07T14:37:20.258Z</updated>
-  <id>http://www.hellohxj.com/</id>
+  <link href="http://www.hellohxj.cn/"/>
+  <updated>2021-05-23T07:39:00.043Z</updated>
+  <id>http://www.hellohxj.cn/</id>
   
   <author>
     <name>熙军</name>
@@ -17,9 +17,31 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>ipV4的子网划分</title>
+    <link href="http://www.hellohxj.cn/2021/05/23/ipV4%E7%9A%84%E5%AD%90%E7%BD%91%E5%88%92%E5%88%86/"/>
+    <id>http://www.hellohxj.cn/2021/05/23/ipV4%E7%9A%84%E5%AD%90%E7%BD%91%E5%88%92%E5%88%86/</id>
+    <published>2021-05-23T06:57:40.000Z</published>
+    <updated>2021-05-23T07:39:00.043Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="ipv4的子网划分"><a href="#ipv4的子网划分" class="headerlink" title="ipv4的子网划分"></a>ipv4的子网划分</h1><p>一个主机的ip地址是 171.64.120.8<br>它是一个b类地址默认的子网掩码是255.255.0.0<br>现在给它一个新的子网掩码255.255.128.0<br>那么：    该子网的网络地址<br>        该子网的广播地址<br>        该子网的主机地址范围<br>        创建的子网数<br>        每个子网的主机数<br>是多少？</p><h2 id="创建的子网数"><a href="#创建的子网数" class="headerlink" title="创建的子网数"></a>创建的子网数</h2><p>把新的子网掩码转换成二进制255.255.128.0 —-&gt;11111111.11111111.10000000.00000000<br>默认的子网掩码转换成二进制255.255.0.0 —-&gt;11111111.11111111.00000000.00000000<br>新的子网掩码把默认的主机位占了一位所以<strong>创建的子网数是2的一次方为2</strong></p><h2 id="每个子网的主机数"><a href="#每个子网的主机数" class="headerlink" title="每个子网的主机数"></a>每个子网的主机数</h2><p>每个子网的主机数为2的新的子网掩码0站的位数的次方-2（减2是因为首地址和末地址不使用）<br>所以<strong>主机数为：2的15次方减2=32766</strong></p><h2 id="该子网的网络地址"><a href="#该子网的网络地址" class="headerlink" title="该子网的网络地址"></a>该子网的网络地址</h2><p>把该地址转换成二进制与新的子网掩码进行二进制与运算得到网络地址<br>把新的子网掩码转换成二进制255.255.128.0 —-&gt;11111111.11111111.10000000.00000000<br>该主机的ip地址           171.64.120.8  —-&gt;10101011.01000000.01111000.00001000<br><strong>网络地址为：          171.64.0.0    —-&gt;10101011.01000000.00000000.00000000</strong></p><h2 id="该子网中第一台主机地址"><a href="#该子网中第一台主机地址" class="headerlink" title="该子网中第一台主机地址"></a>该子网中第一台主机地址</h2><p><strong>网络地址加一：171.64.0.1</strong></p><h2 id="该子网中最后一台主机地址与广播地址"><a href="#该子网中最后一台主机地址与广播地址" class="headerlink" title="该子网中最后一台主机地址与广播地址"></a>该子网中最后一台主机地址与广播地址</h2><p>新的子网掩码255.255.128.0 —-&gt;11111111.11111111.10000000.00000000<br>新的子网掩码占了主机位一位所以地址最大可以是171.64.127.255 —-&gt;10101011.01000000.0<span style="background-color:red">1111111.11111111</span>红色为主机可使用的位<br><strong>由于最大可用的地址用作广播地址所以广播地址为：171.64.127.255</strong></p><p><strong>主机能用的最大地址为广播地址减一：171.64.127.254</strong></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;ipv4的子网划分&quot;&gt;&lt;a href=&quot;#ipv4的子网划分&quot; class=&quot;headerlink&quot; title=&quot;ipv4的子网划分&quot;&gt;&lt;/a&gt;ipv4的子网划分&lt;/h1&gt;&lt;p&gt;一个主机的ip地址是 171.64.120.8&lt;br&gt;它是一个b类地址默认的子网掩码
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>100个人找出谁是老板</title>
-    <link href="http://www.hellohxj.com/2021/05/07/100%E4%B8%AA%E4%BA%BA%E6%89%BE%E5%87%BA%E8%B0%81%E6%98%AF%E8%80%81%E6%9D%BF/"/>
-    <id>http://www.hellohxj.com/2021/05/07/100%E4%B8%AA%E4%BA%BA%E6%89%BE%E5%87%BA%E8%B0%81%E6%98%AF%E8%80%81%E6%9D%BF/</id>
+    <link href="http://www.hellohxj.cn/2021/05/07/100%E4%B8%AA%E4%BA%BA%E6%89%BE%E5%87%BA%E8%B0%81%E6%98%AF%E8%80%81%E6%9D%BF/"/>
+    <id>http://www.hellohxj.cn/2021/05/07/100%E4%B8%AA%E4%BA%BA%E6%89%BE%E5%87%BA%E8%B0%81%E6%98%AF%E8%80%81%E6%9D%BF/</id>
     <published>2021-05-07T14:23:04.000Z</published>
     <updated>2021-05-07T14:37:20.258Z</updated>
     
@@ -40,8 +62,8 @@
   
   <entry>
     <title>deepin安装apache及php和mysql配置网站</title>
-    <link href="http://www.hellohxj.com/2019/12/03/deepin%E5%AE%89%E8%A3%85apache%E5%8F%8Aphp%E5%92%8Cmysql%E9%85%8D%E7%BD%AE%E7%BD%91%E7%AB%99/"/>
-    <id>http://www.hellohxj.com/2019/12/03/deepin%E5%AE%89%E8%A3%85apache%E5%8F%8Aphp%E5%92%8Cmysql%E9%85%8D%E7%BD%AE%E7%BD%91%E7%AB%99/</id>
+    <link href="http://www.hellohxj.cn/2019/12/03/deepin%E5%AE%89%E8%A3%85apache%E5%8F%8Aphp%E5%92%8Cmysql%E9%85%8D%E7%BD%AE%E7%BD%91%E7%AB%99/"/>
+    <id>http://www.hellohxj.cn/2019/12/03/deepin%E5%AE%89%E8%A3%85apache%E5%8F%8Aphp%E5%92%8Cmysql%E9%85%8D%E7%BD%AE%E7%BD%91%E7%AB%99/</id>
     <published>2019-12-03T07:20:31.000Z</published>
     <updated>2019-12-03T07:33:56.640Z</updated>
     
@@ -62,8 +84,8 @@
   
   <entry>
     <title>deepin安装nodejs及nvm</title>
-    <link href="http://www.hellohxj.com/2019/11/29/deepin%E5%AE%89%E8%A3%85nodejs%E5%8F%8Anvm/"/>
-    <id>http://www.hellohxj.com/2019/11/29/deepin%E5%AE%89%E8%A3%85nodejs%E5%8F%8Anvm/</id>
+    <link href="http://www.hellohxj.cn/2019/11/29/deepin%E5%AE%89%E8%A3%85nodejs%E5%8F%8Anvm/"/>
+    <id>http://www.hellohxj.cn/2019/11/29/deepin%E5%AE%89%E8%A3%85nodejs%E5%8F%8Anvm/</id>
     <published>2019-11-29T06:32:51.000Z</published>
     <updated>2019-11-30T03:06:35.798Z</updated>
     
@@ -80,17 +102,17 @@
     </summary>
     
     
-      <category term="Linux" scheme="http://www.hellohxj.com/categories/Linux/"/>
+      <category term="Linux" scheme="http://www.hellohxj.cn/categories/Linux/"/>
     
     
-      <category term="nodejs" scheme="http://www.hellohxj.com/tags/nodejs/"/>
+      <category term="nodejs" scheme="http://www.hellohxj.cn/tags/nodejs/"/>
     
   </entry>
   
   <entry>
     <title>markdown语法</title>
-    <link href="http://www.hellohxj.com/2019/11/20/markdown%E8%AF%AD%E6%B3%95/"/>
-    <id>http://www.hellohxj.com/2019/11/20/markdown%E8%AF%AD%E6%B3%95/</id>
+    <link href="http://www.hellohxj.cn/2019/11/20/markdown%E8%AF%AD%E6%B3%95/"/>
+    <id>http://www.hellohxj.cn/2019/11/20/markdown%E8%AF%AD%E6%B3%95/</id>
     <published>2019-11-20T05:28:28.000Z</published>
     <updated>2019-12-29T16:24:56.696Z</updated>
     
@@ -112,8 +134,8 @@
   
   <entry>
     <title>awd攻防平台搭建</title>
-    <link href="http://www.hellohxj.com/2019/11/20/awd%E6%94%BB%E9%98%B2%E5%B9%B3%E5%8F%B0%E6%90%AD%E5%BB%BA/"/>
-    <id>http://www.hellohxj.com/2019/11/20/awd%E6%94%BB%E9%98%B2%E5%B9%B3%E5%8F%B0%E6%90%AD%E5%BB%BA/</id>
+    <link href="http://www.hellohxj.cn/2019/11/20/awd%E6%94%BB%E9%98%B2%E5%B9%B3%E5%8F%B0%E6%90%AD%E5%BB%BA/"/>
+    <id>http://www.hellohxj.cn/2019/11/20/awd%E6%94%BB%E9%98%B2%E5%B9%B3%E5%8F%B0%E6%90%AD%E5%BB%BA/</id>
     <published>2019-11-20T05:20:03.000Z</published>
     <updated>2019-11-20T05:24:58.785Z</updated>
     
@@ -129,15 +151,15 @@
     </summary>
     
     
-      <category term="网络安全" scheme="http://www.hellohxj.com/categories/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/"/>
+      <category term="网络安全" scheme="http://www.hellohxj.cn/categories/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/"/>
     
     
   </entry>
   
   <entry>
     <title>Centos7修改国内yum源</title>
-    <link href="http://www.hellohxj.com/2019/11/19/centos7-change-yum/"/>
-    <id>http://www.hellohxj.com/2019/11/19/centos7-change-yum/</id>
+    <link href="http://www.hellohxj.cn/2019/11/19/centos7-change-yum/"/>
+    <id>http://www.hellohxj.cn/2019/11/19/centos7-change-yum/</id>
     <published>2019-11-19T06:08:27.000Z</published>
     <updated>2019-11-19T06:33:08.606Z</updated>
     
@@ -153,17 +175,17 @@
     </summary>
     
     
-      <category term="Linux" scheme="http://www.hellohxj.com/categories/Linux/"/>
+      <category term="Linux" scheme="http://www.hellohxj.cn/categories/Linux/"/>
     
     
-      <category term="改源" scheme="http://www.hellohxj.com/tags/%E6%94%B9%E6%BA%90/"/>
+      <category term="改源" scheme="http://www.hellohxj.cn/tags/%E6%94%B9%E6%BA%90/"/>
     
   </entry>
   
   <entry>
     <title>渗透资源下载•置顶</title>
-    <link href="http://www.hellohxj.com/2019/11/07/notice/"/>
-    <id>http://www.hellohxj.com/2019/11/07/notice/</id>
+    <link href="http://www.hellohxj.cn/2019/11/07/notice/"/>
+    <id>http://www.hellohxj.cn/2019/11/07/notice/</id>
     <published>2019-11-07T13:55:22.000Z</published>
     <updated>2019-12-29T16:25:00.893Z</updated>
     
@@ -179,10 +201,10 @@
     </summary>
     
     
-      <category term="下载" scheme="http://www.hellohxj.com/categories/%E4%B8%8B%E8%BD%BD/"/>
+      <category term="下载" scheme="http://www.hellohxj.cn/categories/%E4%B8%8B%E8%BD%BD/"/>
     
     
-      <category term="渗透资源下载" scheme="http://www.hellohxj.com/tags/%E6%B8%97%E9%80%8F%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD/"/>
+      <category term="渗透资源下载" scheme="http://www.hellohxj.cn/tags/%E6%B8%97%E9%80%8F%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD/"/>
     
   </entry>
   
