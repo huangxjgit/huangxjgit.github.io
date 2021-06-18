@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.hellohxj.cn/"/>
-  <updated>2021-05-23T07:39:00.043Z</updated>
+  <updated>2021-06-08T02:15:38.964Z</updated>
   <id>http://www.hellohxj.cn/</id>
   
   <author>
@@ -15,6 +15,57 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>熟知端口号</title>
+    <link href="http://www.hellohxj.cn/2021/06/08/%E7%86%9F%E7%9F%A5%E7%AB%AF%E5%8F%A3%E5%8F%B7/"/>
+    <id>http://www.hellohxj.cn/2021/06/08/%E7%86%9F%E7%9F%A5%E7%AB%AF%E5%8F%A3%E5%8F%B7/</id>
+    <published>2021-06-08T02:12:36.000Z</published>
+    <updated>2021-06-08T02:15:38.964Z</updated>
+    
+    <content type="html"><![CDATA[<p>1.熟知端口号：0-1023</p><p>2.注册端口号：1024-4951 </p><p>3.动态端口号: 4952-65535 可由任何进程使用，是短暂端口号</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;1.熟知端口号：0-1023&lt;/p&gt;
+&lt;p&gt;2.注册端口号：1024-4951 &lt;/p&gt;
+&lt;p&gt;3.动态端口号: 4952-65535 可由任何进程使用，是短暂端口号&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="计算机网络" scheme="http://www.hellohxj.cn/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>虚拟机提示无法解析域名cn.archive.ubuntu.com</title>
+    <link href="http://www.hellohxj.cn/2021/05/26/%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%8F%90%E7%A4%BA%E6%97%A0%E6%B3%95%E8%A7%A3%E6%9E%90%E5%9F%9F%E5%90%8Dcn-archive-ubuntu-com/"/>
+    <id>http://www.hellohxj.cn/2021/05/26/%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%8F%90%E7%A4%BA%E6%97%A0%E6%B3%95%E8%A7%A3%E6%9E%90%E5%9F%9F%E5%90%8Dcn-archive-ubuntu-com/</id>
+    <published>2021-05-26T15:20:04.000Z</published>
+    <updated>2021-05-26T15:32:31.009Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="虚拟机提示无法解析域名”cn-archive-ubuntu-com”"><a href="#虚拟机提示无法解析域名”cn-archive-ubuntu-com”" class="headerlink" title="虚拟机提示无法解析域名”cn.archive.ubuntu.com”"></a>虚拟机提示无法解析域名”cn.archive.ubuntu.com”</h2><p>虚拟机提示无法解析域名”cn.archive.ubuntu.com”<br>把虚拟机网络模式切换为NAT模式解决</p><p><img src="/2021/05/26/%E8%99%9A%E6%8B%9F%E6%9C%BA%E6%8F%90%E7%A4%BA%E6%97%A0%E6%B3%95%E8%A7%A3%E6%9E%90%E5%9F%9F%E5%90%8Dcn-archive-ubuntu-com/1.png" srcset="/img/loading.gif" alt></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;虚拟机提示无法解析域名”cn-archive-ubuntu-com”&quot;&gt;&lt;a href=&quot;#虚拟机提示无法解析域名”cn-archive-ubuntu-com”&quot; class=&quot;headerlink&quot; title=&quot;虚拟机提示无法解析域名”cn.archive.u
+      
+    
+    </summary>
+    
+    
+    
+      <category term="linux" scheme="http://www.hellohxj.cn/tags/linux/"/>
+    
+  </entry>
   
   <entry>
     <title>ipV4的子网划分</title>
